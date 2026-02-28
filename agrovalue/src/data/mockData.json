@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@agrovalue.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Rajesh Kumar",
+      "email": "farmer@agrovalue.com",
+      "password": "farmer123",
+      "role": "farmer"
+    },
+    {
+      "id": 3,
+      "name": "Priya Sharma",
+      "email": "buyer@agrovalue.com",
+      "password": "buyer123",
+      "role": "buyer"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Organic Mango Pickle",
+      "price": 250,
+      "description": "Homemade traditional mango pickle made with organic ingredients",
+      "category": "Food",
+      "image": "https://images.unsplash.com/photo-1599490659213-e2b9527bd087?w=400",
+      "stock": 20,
+      "farmerId": 2
+    },
+    {
+      "id": 2,
+      "title": "Pure Honey",
+      "price": 450,
+      "description": "100% natural honey from organic farms",
+      "category": "Food",
+      "image": "https://images.unsplash.com/photo-1587049352846-4a222e784acc?w=400",
+      "stock": 15,
+      "farmerId": 2
+    },
+    {
+      "id": 3,
+      "title": "Handmade Jute Bags",
+      "price": 150,
+      "description": "Eco-friendly jute bags handcrafted by local artisans",
+      "category": "Handicraft",
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400",
+      "stock": 30,
+      "farmerId": 2
+    },
+    {
+      "id": 4,
+      "title": "Organic Turmeric Powder",
+      "price": 180,
+      "description": "Pure turmeric powder from organic farms",
+      "category": "Spices",
+      "image": "https://images.unsplash.com/photo-1615485500834-bc10199bc768?w=400",
+      "stock": 25,
+      "farmerId": 2
+    }
+  ]
+}
